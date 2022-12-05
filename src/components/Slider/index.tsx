@@ -1,4 +1,4 @@
-import { Flex, Box, Stack, Text } from "@chakra-ui/react";
+import { Flex } from "@chakra-ui/react";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
@@ -8,6 +8,8 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 import styles from "./slider.module.scss";
+import { Continent } from "../Continent";
+import Link from "next/link";
 
 export function Slider() {
   return (
@@ -22,44 +24,51 @@ export function Slider() {
         className={styles.mySwiper}
       >
         <SwiperSlide>
-          <Box
-            width="100%"
-            height="100%"
-            bgImage={"/europa.svg"}
-            bgSize={"cover"}
-          >
-            <Flex align="center" h="100%">
-              <Stack align="center" width="100%">
-                <Text
-                  color="#F5F8FA"
-                  fontSize="3rem"
-                  lineHeight="4.5rem"
-                  fontWeight="700"
-                  fontStyle="normal"
-                >
-                  EUROPA
-                </Text>
-                <Text
-                  color="#DADADA"
-                  fontSize="1.5rem"
-                  lineHeight="2.25rem"
-                  fontWeight="700"
-                  fontStyle="normal"
-                >
-                  O continente mais antigo.
-                </Text>
-              </Stack>
-            </Flex>
-          </Box>
+          <Link href="/continent/europe">
+            <Continent
+              title="EUROPA"
+              subtitle="O continente mais antigo."
+              url_img="/europa.svg"
+            />
+          </Link>
         </SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+        <SwiperSlide>
+          <Continent
+            title="AMÉRICA DO NORTE"
+            subtitle="O continente para todos tipos de público."
+            url_img="/northamerica.jpg"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Continent
+            title="AMÉRICA DO SUL"
+            subtitle="O continente mais hospitaleiro."
+            url_img="/southamerica.jpg"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Link href="/continent/asian">
+            <Continent
+              title="ÁSIA"
+              subtitle="O continente mais inigmático."
+              url_img="/asian.jpg"
+            />
+          </Link>
+        </SwiperSlide>
+        <SwiperSlide>
+          <Continent
+            title="ÁFRICA"
+            subtitle="O continente mais selvagem."
+            url_img="/african.jpg"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Continent
+            title="OCEANIA"
+            subtitle="O continente mais paradisiaco."
+            url_img="/oceania.jpg"
+          />
+        </SwiperSlide>
       </Swiper>
     </Flex>
   );

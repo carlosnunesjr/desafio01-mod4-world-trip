@@ -54,7 +54,7 @@ export function Banner() {
             position="absolute"
             transform="rotate(3deg)"
             left="62%"
-            top={["10rem", "12rem", "11rem", "5rem", "7rem", "3.5rem"]}
+            top={["10rem", "12rem", "11rem", "16rem", "13rem", "13.5rem"]}
           >
             <Image
               objectFit="cover"

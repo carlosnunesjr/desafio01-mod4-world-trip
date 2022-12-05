@@ -1,0 +1,86 @@
+{
+  "continents": [
+    {
+      "continent_key": "europe",
+      "continent_url": "/EuropeBanner.svg",
+      "continent_name": "EUROPA",
+      "continent_description": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
+      "nr_countries": 50,
+      "nr_idioms": 60,
+      "nr_cities": 27,
+      "cities": [
+        {
+          "city_name": "Londres",
+          "city_img_url": "/london.svg",
+          "country": "Reino Unido",
+          "country_img_url": "/england.svg"
+        },
+        {
+          "city_name": "París",
+          "city_img_url": "/paris.svg",
+          "country": "Reino Unido",
+          "country_img_url": "/france.svg"
+        },
+        {
+          "city_name": "Roma",
+          "city_img_url": "/rome.svg",
+          "country": "Itália",
+          "country_img_url": "/italy.svg"
+        },
+        {
+          "city_name": "Praga",
+          "city_img_url": "/praga.svg",
+          "country": "República Tcheca",
+          "country_img_url": "/republica_tcheca.svg"
+        },
+        {
+          "city_name": "Amsterdã",
+          "city_img_url": "/amsterda.svg",
+          "country": "Holanda",
+          "country_img_url": "/holanda.svg"
+        }
+      ]
+    },
+    {
+      "continent_key": "asian",
+      "continent_url": "/asian.jpg",
+      "continent_name": "ÁSIA",
+      "continent_description": "A Ásia é o maior dos continentes, tanto em área como em população. Abrange um terço das partes sólidas da superfície da Terra e é responsável por abrigar quase três quintos da população mundial. A Ásia faz fronteira no lado ocidental com a África e com a Europa, e no lado oriental com o oceano Pacífico, a Oceania e, em menor proporção, com a América do Norte, pelo Estreito de Bering.",
+      "nr_countries": 50,
+      "nr_idioms": 100,
+      "nr_cities": 100,
+      "cities": [
+        {
+          "city_name": "Erevã",
+          "city_img_url": "/erevan.jpg",
+          "country": "Armênia",
+          "country_img_url": "/armenia.png"
+        },
+        {
+          "city_name": "Barisal",
+          "city_img_url": "/barisal.jpg",
+          "country": "Bangladesh",
+          "country_img_url": "/bangladesh.png"
+        },
+        {
+          "city_name": "Hong Kong",
+          "city_img_url": "/hong-kong.jpg",
+          "country": "China",
+          "country_img_url": "/china.png"
+        },
+        {
+          "city_name": "Cairo",
+          "city_img_url": "/cairo.jpg",
+          "country": "Egito",
+          "country_img_url": "/egypt.png"
+        },
+        {
+          "city_name": "Al Shamal",
+          "city_img_url": "/al-shamal.jpg",
+          "country": "Qatar",
+          "country_img_url": "/qatar.png"
+        }
+      ]
+    }
+  ]
+}
